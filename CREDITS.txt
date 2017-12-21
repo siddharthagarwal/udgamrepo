@@ -1,4 +1,4 @@
-# Website Template Credits
+# Website Design Template Credits
 
 <!--
 	Hielo by TEMPLATED
@@ -6,10 +6,22 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-#Photographs Used
+# Photographs Used
 
 <!--
 	Slider Photos - Sasank Gurajapu, Chapps Photography, Saurabh Soni, Jayadeep Karnati 
 	BG Photos - Sajith S.
 	Special Thanks to Montage (Photography Club of IITG)
+-->
+
+# Preloader Effect
+
+<!--
+	Sarvesh Raj | www.facebook.com/sarvesh83
+-->
+
+# Man behind the code 
+
+<!-- 
+	Sai Bhaskar Devatha | 9954250532 | www.saibhaskardevatha.co.in 
 -->
