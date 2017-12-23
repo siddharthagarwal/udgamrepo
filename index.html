@@ -1,593 +1,563 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Udgam, IIT Guwahati</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="images/favicon.png" />
-		<link type="text/plain" rel="author" href="CREDITS.txt">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109652681-2"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+<head>
+	<title>Udgam, IIT Guwahati</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<link href="images/favicon.png" rel="shortcut icon">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/hover-min.css" media="all" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js">
+	</script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js">
+	</script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js">
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109652681-2">
+	</script>
+	<script data-no-instant="" src="assets/js/instantclick.min.js">
+	</script>
+	<script src="assets/js/jquery.min.js">
+	</script>
+	<script src="assets/js/jquery.scrollex.min.js">
+	</script>
+	<script src="assets/js/skel.min.js">
+	</script>
+	<script src="assets/js/util.js">
+	</script>
+	<script src="assets/js/main.js">
+	</script>
+	<script src="assets/js/jquery.matchHeight.js">
+	</script>
+	<script>
+	       window.dataLayer = window.dataLayer || [];
+	       function gtag(){dataLayer.push(arguments);}
+	       gtag('js', new Date());
 
-		  gtag('config', 'UA-109652681-2');
-		</script>
-		<style type="text/css">
-			body{
-				text-align: justify;
-			}
-			p{
-				color: rgba(0,0,0,.70);
-			}
-		</style>
-		<meta property="og:url" content="http://www.udgam.org.in" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Udgam, IIT Guwahati" />
-		<meta property="og:description" content="The Annual Entrepreneurship Summit of EDC, IIT Guwahati." />
-		<script type="text/javascript">!function(t,e){"use strict";var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0],a=e.createElement("script");a.setAttribute("type","text/javascript"),a.setAttribute("src",t),r.appendChild(a)}catch(t){}};t.CollectId = "5a3955fd073b651cb3b43e76",r("https://s3.amazonaws.com/collectchat/launcher.js")}(window,document);</script>
-	</head>
-	<body>
+	       gtag('config', 'UA-109652681-2');
+	       
+	       jquery(window).load(function() {
+	       // Animate loader off screen
+	       jquery(".preloader").fadeOut(500);;
+	   });
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Udgam</a></div>
-				<a href="#menu">Menu</a>
-			</header>
-
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="speakers.html">Speakers</a></li>
-					<li><a href="index.html#one">Events</a></li>			
-					<li><a href="index.html#agenda">Schedule</a></li>
-					<li><a href="sponsors.html">Sponsors</a></li>							
-					<li><a href="team.html">Team</a></li>
-					<li><a href="index.html#three">Contact Us</a></li>
-					<li><a href="https://goo.gl/forms/3b9zNqB5eVMNzzjh2">Campus Ambassador</a></li>	
+	</script>
+	<style type="text/css">
+	body{
+	   text-align: justify;
+	}
+	p{
+	   color: rgba(0,0,0,.70);
+	}
+	</style>
+	<meta content="http://www.udgam.org.in" property="og:url">
+	<meta content="website" property="og:type">
+	<meta content="Udgam, IIT Guwahati" property="og:title">
+	<meta content="The Annual Entrepreneurship Summit of EDC, IIT Guwahati." property="og:description">
+	<script type="text/javascript">
+	!function(t,e){"use strict";var r=function(t){try{var r=e.head||e.getElementsByTagName("head")[0],a=e.createElement("script");a.setAttribute("type","text/javascript"),a.setAttribute("src",t),r.appendChild(a)}catch(t){}};t.CollectId = "5a3955fd073b651cb3b43e76",r("https://s3.amazonaws.com/collectchat/launcher.js")}(window,document);
+	</script>
+	<script id='storm-up' src='https://storm-up.com/dist/bundle.js?clientId=e2ca5dfb-eeb2-41c9-88e8-aa453c501684'>
+	</script>
+</head>
+<body>
+	<!--CSS Spinner-->
+	<div class="spinner-wrapper">
+		<div class="spinner">
+			<div class="cube1"></div>
+			<div class="cube2"></div>
+		</div>
+	</div><!-- <div class="se-pre-con"></div> -->
+	<!-- Header -->
+	<header class="alt" id="header">
+		<div class="logo">
+			<a href="index.html">Udgam</a>
+		</div><a href="#menu">Menu</a>
+	</header><!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="speakers.html">Speakers</a></li>
+			<li><a href="index.html#one">Events</a></li>
+			<li><a href="index.html#agenda">Schedule</a></li>
+			<li><a href="sponsors.html">Sponsors</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="index.html#three">Contact Us</a></li>
+			<li><a href="https://goo.gl/forms/3b9zNqB5eVMNzzjh2">Campus Ambassador</a></li>
+		</ul>
+	</nav><!-- Banner -->
+	<section class="banner full">
+		<article>
+			<img alt="" src="images/slide01.jpg">
+			<div class="inner">
+				<header>
+					<p>A proud Summit organised by <a href="https://ecell-iitg.com">Entrepreneurial Development Cell, IIT Guwahati</a></p>
+					<h2>Udgam</h2>
+					<p>Innovating You!</p><br>
+					<h3>19 - 21 January, 2018</h3>
+					<footer class="align-center">
+						<a class="button big" href="register.html">Attend</a>
+					</footer>
+				</header>
+			</div>
+		</article>
+		<article>
+			<img alt="" src="images/slide02.jpg">
+			<div class="inner">
+				<header>
+					<p>North East's Biggest Entrepreneurship Summit</p>
+					<h2>Udgam</h2>
+					<p>Innovating You!</p><br>
+					<h3>19 - 21 January, 2018</h3>
+					<footer class="align-center">
+						<a class="button big" href="register.html">Attend</a>
+					</footer>
+				</header>
+			</div>
+		</article>
+		<article>
+			<img alt="" src="images/slide03.jpg">
+			<div class="inner">
+				<header>
+					<p>It's not about the ideas. It's about making ideas happen.</p>
+					<h2>Udgam</h2>
+					<p>Innovating You!</p><br>
+					<h3>19 - 21 January, 2018</h3>
+					<footer class="align-center">
+						<a class="button big" href="register.html">Attend</a>
+					</footer>
+				</header>
+			</div>
+		</article>
+		<article>
+			<img alt="" src="images/slide04.jpg">
+			<div class="inner">
+				<header>
+					<p>If you have a strong, loyal community, you can do anything.</p>
+					<h2>Udgam</h2>
+					<p>Innovating You!</p><br>
+					<h3>19 - 21 January, 2018</h3>
+					<footer class="align-center">
+						<a class="button big" href="register.html">Attend</a>
+					</footer>
+				</header>
+			</div>
+		</article>
+		<article>
+			<img alt="" src="images/slide05.jpg">
+			<div class="inner">
+				<header>
+					<p>Don't worry about failure, you only have to be right once.</p>
+					<h2>Udgam</h2>
+					<p>Innovating You!</p><br>
+					<h3>19 - 21 January, 2018</h3>
+					<footer class="align-center">
+						<a class="button big" href="register.html">Attend</a>
+					</footer>
+				</header>
+			</div>
+		</article>
+	</section><!-- About -->
+	<section class="wrapper style2" id="two">
+		<div class="inner">
+			<div class="box">
+				<div class="content">
+					<header class="align-center">
+						<h2>About Us</h2>
+					</header>
+					<p>UDGAM is the flagship event of the Entrepreneurial Development Cell, IIT Guwahati. It was conceptualized to develop and spread the spirit of entrepreneurship among the youth of the North-East, and India in general thus earning itself the reputation of being the largest E-Summit in the north-east. E-Cell, IIT Guwahati, is a special interest group under Technical Board of the Students Gymkhana Council, IIT Guwahati and is responsible for activities and initiatives which would instil and promote the spirit of entrepreneurship amongst the student community. To foster an environment which is conducive to entrepreneurship, we at E-Cell organize lectures, events and workshops to create a platform for them to realize their potential and showcase their bright ideas in front of public and industry</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- Count down -->
+	<section class="wrapper style3" id="two">
+		<div class="inner">
+			<header class="align-center">
+				<p>Count Down for Udgam.</p>
+				<ul>
+					<li><span id="days"></span>days</li>
+					<li><span id="hours"></span>Hours</li>
+					<li><span id="minutes"></span>Minutes</li>
+					<li><span id="seconds"></span>Seconds</li>
 				</ul>
-			</nav>
-
-		<!-- Banner -->
-			<section class="banner full">
-				<article>
-					<img src="images/slide01.jpg" alt="" />
-					<div class="inner">
-						<header>
-							<p>A proud Summit organised by<a href="https://ecell-iitg.com"> Entrepreneurial Development Cell</a></p>
-							<h2>Udgam 2018</h2>
-							<p>Innovating You!</p> <br>
-							<h3>19 - 21 January, 2018</h3>
-							<footer class="align-center">
-								<a href="register.html" class="button big">Attend</a>
-							</footer>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide02.jpg" alt="" />
-					<div class="inner">
-						<header>
-							<p>North East's Biggest Entrepreneurship Summit</a></p>
-							<h2>Udgam 2018</h2>
-							<p>Innovating You!</p> <br>
-							<h3>19 - 21 January, 2018</h3>
-							<footer class="align-center">
-								<a href="register.html" class="button big">Attend</a>
-							</footer>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide03.jpg"  alt="" />
-					<div class="inner">
-						<header>
-							<p>It's not about ideas. It's about making ideas happen.</a></p>
-							<h2>Udgam 2018</h2>
-							<p>Innovating You!</p> <br>
-							<h3>19 - 21 January, 2018</h3>
-							<footer class="align-center">
-								<a href="register.html" class="button big">Attend</a>
-							</footer>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide04.jpg"  alt="" />
-					<div class="inner">
-						<header>
-							<p>If you have a strong, loyal community, you can do anything.</a></p>
-							<h2>Udgam 2018</h2>
-							<p>Innovating You!</p> <br>
-							<h3>19 - 21 January, 2018</h3>
-							<footer class="align-center">
-								<a href="register.html" class="button big">Attend</a>
-							</footer>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide05.jpg"  alt="" />
-					<div class="inner">
-						<header>
-							<p>Don't worry about failure, you only have to be right once.</a></p>
-							<h2>Udgam 2018</h2>
-							<p>Innovating You!</p> <br>
-							<h3>19 - 21 January, 2018</h3>
-							<footer class="align-center">
-								<a href="register.html" class="button big">Attend</a>
-							</footer>
-						</header>
-					</div>
-				</article>
-			</section>
-
-		<!-- About -->
-		<section id="two" class="wrapper style2">
-				<div class="inner">
-					<div class="box">
+			</header>
+		</div>
+	</section><!-- Events -->
+	<section class="wrapper style2" id="one">
+		<div class="inner">
+			<div class="row revealed">
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic07.jpg"></div>
 						<div class="content">
 							<header class="align-center">
-								<h2>About Us</h2>
+								<p>listen from industry experts</p>
+								<h2>Lecture Series</h2>
 							</header>
-							<p>UDGAM is the flagship event of the Entrepreneurial Development Cell, IIT Guwahati. It was conceptualized to develop and spread the spiritof entrepreneurship among the youth of the North-East, and India in general thus earning itself the reputation of being the largest E-Summit in the north-east. E-Cell, IIT Guwahati, is a special interest group under Technical Board of the Students Gymkhana Council, IIT Guwahati and is responsiblefor activities and initiatives which would instil and promote the spirit of entrepreneurship amongst the student community. To foster anenvironment which is conducive to entrepreneurship, we at E-Cell organize lectures, events and workshops to create a platform for themto realize their potential and showcase their bright ideas in front of public and industry</p>
+							<p>Ever felt that you have a drive, you have a passion, you have what it takes but felt that somewhere along the way your ideas aren’t reaching fruition? Ever felt that how is it that people succeed against so many odds? Hear the entrepreneurs live as they walk you through the path of how they met with success. Take their guidance and start your journey.</p>
+							<footer class="align-center">
+								<a class="button alt" href="speakers.html">Learn More</a>
+							</footer>
 						</div>
 					</div>
 				</div>
-			</section>
-
-
-		<!-- Count down -->
-			<section id="two" class="wrapper style3">
-				<div class="inner">
-					<header class="align-center">
-						<p>Count Down for Udgam.</p>
-						<h2 id="demo" style="font-size: 2em;"></h2>
-					</header>
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic05.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>Practise makes one perfect</p>
+								<h2>Workshops</h2>
+							</header>
+							<p>The classrooms never got interesting until now. The art of entrepreneurship has been a closely guarded secret. Many of us are very motivated when we begin working on our idea but slowly that passion fizzles out. From the finest business moves to the foxiest marketing maneuvers industry specialists teach you the art of entrepreneurship.</p>
+							<footer class="align-center">
+								<a class="button alt" href="workshops.html">Learn More</a>
+							</footer>
+						</div>
+					</div>
 				</div>
-			</section>
-
-
-		<!-- Events -->
-			<section id="one" class="wrapper style2">
-				<div class="inner">
-					<div class="row">
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic07.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>listen from industry experts</p>
-										<h2>Lecture Series</h2>
-									</header>
-									<p> Ever felt that you have a drive, you have a passion, you have what it takes but felt that somewhere along the way your ideas aren’t reaching fruition? Ever felt that how is it that people succeed against so many odds? Hear the entrepreneurs live as they walk you through the path of how they met with success. Take their guidance and start your journey. </p>
-									<footer class="align-center">
-										<a href="speakers.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
+				<div class="4u$ 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic10.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>Social Entrepreneurship</p>
+								<h2>Social Business Conference</h2>
+							</header>
+							<p>The conference invites Indian and foreign social entrepreneurs and leaders who share their insights and experience about social business and various ways of contributing to the society.</p>
+							<footer class="align-center">
+								<a class="button alt" href="sbc.html">Learn More</a>
+							</footer>
 						</div>
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic05.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>Practise makes one perfect</p>
-										<h2>Workshops</h2>
-									</header>
-									<p> The classrooms never got interesting until now. The art of entrepreneurship has been a closely guarded secret. Many of us are very motivated when we begin working on our idea but slowly that passion fizzles out. From the finest business moves to the foxiest marketing maneuvers industry specialists teach you the art of entrepreneurship.</p>
-									<footer class="align-center">
-										<a href="workshops.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u$ 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic10.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>Social Entrepreneurship</p>
-										<h2>Social Business Conference</h2>
-									</header>
-									<p> The conference invites Indian and foreign social entrepreneurs and leaders who share their insights and experience about social business and various ways of contributing to the society. </p>
-									<footer class="align-center">
-										<a href="sbc.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic01.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>Case Study Competition</p>
-										<h2>Strategy Storm</h2>
-									</header>
-									<p> A Social Business Case competition for students in India which will be organized for the first time in which students from all over the country will gather to solve business, marketing and PR problems for social enterprises and organizations.</p>
-									<footer class="align-center">
-										<a href="strategystorm.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>The Ultimate Pitch Battle!</p>
-										<h2>Disrupt!</h2>
-									</header>
-									<p> The classic pitching battle is reinvented in this edition of Udgam. So, perfect your pitches and fight it out in front of VCs and angel investors who are here to tear you down and build you up.</p>
-									<footer class="align-center">
-										<a href="disrupt.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u$ 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>The Coders' Avenue</p>
-										<h2>Hack in the East</h2>
-									</header>
-									<p> A hackathon which aims to create solutions of problems faced in northeast India. Your team will have 24 hours to make an impact and stand out amongst everyone else. Survival of the fittest!</p>
-									<footer class="align-center">
-										<a href="hack.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic11.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>The name says it all</p>
-										<h2>Intern Fair</h2>
-									</header>
-									<p> This is the first time an intern fair is being conducted in the northeast. It is an amazing platform for companies to find interns and for students to get the guidance and practice they are looking for to boost their career.</p>
-									<footer class="align-center">
-										<a href="intern.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic09.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>Its Virtual not Real</p>
-										<h2>Virtual Stock Market</h2>
-									</header>
-									<p> Action packed simulation game that’ll enhance one’s trading skills and ability to deduce the effects of news and events on the stock market</p>
-									<footer class="align-center">
-										<a href="vsm.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div class="4u$ 12u$(small)">
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic08.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>Just 90 seconds</p>
-										<h2>In a Nutshell</h2>
-									</header>
-									<p> You will have 90 seconds to pitch your startup idea in this competition. Every second counts. You have a minute to win it! Plus around 30 seconds XD.</p>
-									<footer class="align-center">
-										<a href="elevator.html" class="button alt">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
+					</div>
+				</div>
 			</div>
-
-				</div>
-			</section>
-
-			<!-- Register -->
-				<section id="two" class="wrapper style3">
-					<div class="inner">
-						<header class="align-center">
-							<p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
-							<h2>UDGAM 2018</h2>
+			<div class="row revealed">
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic01.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>Case Study Competition</p>
+								<h2>Strategy Storm</h2>
+							</header>
+							<p>A Social Business Case competition for students in India which will be organized for the first time in which students from all over the country will gather to solve business, marketing and PR problems for social enterprises and organizations.</p>
 							<footer class="align-center">
-								<a href="register.html" class="button alt">Register</a>
+								<a class="button alt" href="strategystorm.html">Learn More</a>
 							</footer>
-						</header>
-					</div>
-				</section>
-
-			<!-- Agenda -->
-			<section id="agenda" class="wrapper style2">
-				<div class="inner box">
-					<div class="content">
-						<header class="align-center"><h2>Schedule (Tentative)</h2></header>
-						<div class="row">
-							<div class="6u 12u$(small)">
-								<header class="align-center"><h2> Day - 0</h2></header>
-								<table style="color: black;">
-									<thead>
-										<tr>
-											<th>Time</th>
-											<th>Event</th>
-											<th>Venue</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>18:00</td>
-											<td>Inaugration Ceremony</td>
-											<td>Auditorium</td>
-										</tr>
-										<tr>
-											<td>19:00</td>
-											<td>Keynote - 01</td>
-											<td>Auditorium</td>
-										</tr>
-									</tbody>
-								</table>
-								<br>
-								<header class="align-center"><h2> Day - 1</h2></header>
-								<table style="color: black;">
-									<thead>
-										<tr>
-											<th>Time</th>
-											<th>Event</th>
-											<th>Venue</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>9:30</td>
-											<td>Disrupt!</td>
-											<td>CH - 01</td>
-										</tr>
-										<tr>
-											<td>9:30</td>
-											<td>Hack in the East</td>
-											<td>CH - 02</td>
-										</tr>
-										<tr>
-											<td>9:30</td>
-											<td>Disrupt!</td>
-											<td>CH - 01</td>
-										</tr>
-										<tr>
-											<td>11:00</td>
-											<td>Keynote - 02</td>
-											<td>Auditorium</td>
-										</tr>
-										<tr>
-											<td>15:00</td>
-											<td>Workshop - 01</td>
-											<td>LH - 03</td>
-										</tr>
-										<tr>
-											<td>15:00</td>
-											<td>Disrupt!</td>
-											<td>CH - 01</td>
-										</tr>
-										<tr>
-											<td>18:00</td>
-											<td>Keynote - 03</td>
-											<td>Auditorium</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-
-							<div class="6u$ 12u$(small)">
-								<header class="align-center"><h2> Day - 2</h2></header>
-								<table style="color: black;">
-									<thead>
-										<tr>
-											<th>Time</th>
-											<th>Event</th>
-											<th>Venue</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>9:30</td>
-											<td>Disrupt!</td>
-											<td>CH - 01</td>
-										</tr>
-										<tr>
-											<td>11:00</td>
-											<td>Strategy Storm</td>
-											<td>CH - 03</td>
-										</tr>
-										<tr>
-											<td>12:00</td>
-											<td>Keynote - 04</td>
-											<td>Auditorium</td>
-										</tr>
-										<tr>
-											<td>15:00</td>
-											<td>Keynote - 05</td>
-											<td>Auditorium</td>
-										</tr>
-										<tr>
-											<td>16:00</td>
-											<td>Workshop - 02</td>
-											<td>Mini Audi</td>
-										</tr>
-										<tr>
-											<td>17:00</td>
-											<td>Prize Distrubution</td>
-											<td>Auditorium</td>
-										</tr>
-										<tr>
-											<td>18:00</td>
-											<td>Closing Ceremony</td>
-											<td>Auditorium</td>
-										</tr>
-									</tbody>
-								</table>
-								<br>
-							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!--  Register -->
-				<section id="two" class="wrapper style3">
-					<div class="inner">
-						<header class="align-center">
-							<p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
-							<h2>UDGAM 2018</h2>
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic02.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>The Ultimate Pitch Battle!</p>
+								<h2>Disrupt!</h2>
+							</header>
+							<p>The classic pitching battle is reinvented in this edition of Udgam. So, perfect your pitches and fight it out in front of VCs and angel investors who are here to tear you down and build you up.</p>
 							<footer class="align-center">
-								<a href="register.html" class="button alt">Register</a>
+								<a class="button alt" href="disrupt.html">Learn More</a>
 							</footer>
-						</header>
-					</div>
-				</section>
-				
-
-						<!-- Location -->
-		<section id="two" class="wrapper style2">
-				<div class="inner">
-					<div class="box"><div class="content">
-						<header class="align-center"><h2>Location</h2></header>
-						<iframe 
-							frameborder="0" style="border:0;width: 100%;height:500px;"
-						  	src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDMzphcpXvMal2GIyU8mz2iD7nGZJcIbMg
-						    &q=place_id:ChIJ1ZPM58FaWjcR4ZDEz-OB9As" allowfullscreen>
-						</iframe>
-					</div></div>
-				</div>
-			</section>
-
-
-
-
-			<!-- Last Register -->
-				<section id="two" class="wrapper style3">
-					<div class="inner">
-						<header class="align-center">
-							<p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
-							<h2>UDGAM 2018</h2>
-							<footer class="align-center">
-								<a href="register.html" class="button alt">Register</a>
-							</footer>
-						</header>
-					</div>
-				</section>
-
-			<!-- Form -->
-				<!-- <section id="three" class="wrapper style2"><div class="inner"><div class="box"><div class="content">
-					<header class="align-center"><h2>Contact Us</h2></header>
-
-					<form method="post" action="#">
-						<div class="row uniform">
-							<div class="6u 12u$(xsmall)">
-								<input type="text" name="name" id="name" value="" placeholder="Name" />
-							</div>
-							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="email" id="email" value="" placeholder="Email" />
-							</div>
-							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-							</div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-									<li><input type="reset" value="Reset" class="alt" /></li>
-								</ul>
-							</div>
 						</div>
-					</form></div></div></div></section> -->
-
-
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://www.facebook.com/ecell.iitg/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://twitter.com/edciitg" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/company/udgam-the-annual-entrepreneurship-summit-of-iit-guwahati/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:edc@iitg.ernet.in" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
+					</div>
 				</div>
-				<div class="copyright">
-					&copy; Udgam Creatives. All rights reserved.
+				<div class="4u$ 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic03.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>The Coders' Avenue</p>
+								<h2>Hack in the East</h2>
+							</header>
+							<p>A hackathon which aims to create solutions of problems faced in northeast India. Your team will have 24 hours to make an impact and stand out amongst everyone else. Survival of the fittest!</p>
+							<footer class="align-center">
+								<a class="button alt" href="hack.html">Learn More</a>
+							</footer>
+						</div>
+					</div>
 				</div>
-			</footer>
+			</div>
+			<div class="row revealed">
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic11.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>The name says it all</p>
+								<h2>Intern Fair</h2>
+							</header>
+							<p>This is the first time an intern fair is being conducted in the northeast. It is an amazing platform for companies to find interns and for students to get the guidance and practice they are looking for to boost their career.</p>
+							<footer class="align-center">
+								<a class="button alt" href="intern.html">Learn More</a>
+							</footer>
+						</div>
+					</div>
+				</div>
+				<div class="4u 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic09.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>Its Virtual not Real</p>
+								<h2>Virtual Stock Market</h2>
+							</header>
+							<p>Action packed simulation game that’ll enhance one’s trading skills and ability to deduce the effects of news and events on the stock market</p>
+							<footer class="align-center">
+								<a class="button alt" href="vsm.html">Learn More</a>
+							</footer>
+						</div>
+					</div>
+				</div>
+				<div class="4u$ 12u$(small)">
+					<div class="box hvr-glow" data-mh="event-blocks">
+						<div class="image fit"><img alt="" src="images/pic08.jpg"></div>
+						<div class="content">
+							<header class="align-center">
+								<p>Just 90 seconds</p>
+								<h2>In a Nutshell</h2>
+							</header>
+							<p>You will have 90 seconds to pitch your startup idea in this competition. Every second counts. You have a minute to win it! Plus around 30 seconds XD.</p>
+							<footer class="align-center">
+								<a class="button alt" href="elevator.html">Learn More</a>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Register -->
+	<!--    <section id="two" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
+                <h2>UDGAM 2018</h2>
+                <footer class="align-center">
+                    <a href="register.html" class="button alt">Register</a>
+                </footer>
+            </header>
+        </div>
+    </section>
+-->
+	<!-- Agenda -->
+	<section class="wrapper style2" id="agenda">
+		<div class="inner box">
+			<div class="content">
+				<header class="align-center">
+					<h2>Schedule (Tentative)</h2>
+				</header>
+				<div class="row">
+					<div class="6u 12u$(small)">
+						<header class="align-center">
+							<h2>Day - 0</h2>
+						</header>
+						<table class="table table-hover" style="color: black;">
+							<thead>
+								<tr>
+									<th>Time</th>
+									<th>Event</th>
+									<th>Venue</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>18:00</td>
+									<td>Inauguration Ceremony</td>
+									<td>Auditorium</td>
+								</tr>
+								<tr>
+									<td>19:00</td>
+									<td>Keynote - 01</td>
+									<td>Auditorium</td>
+								</tr>
+							</tbody>
+						</table><br>
+						<header class="align-center">
+							<h2>Day - 1</h2>
+						</header>
+						<table style="color: black;">
+							<thead>
+								<tr>
+									<th>Time</th>
+									<th>Event</th>
+									<th>Venue</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>9:30</td>
+									<td>Disrupt!</td>
+									<td>CH - 01</td>
+								</tr>
+								<tr>
+									<td>9:30</td>
+									<td>Hack in the East</td>
+									<td>CH - 02</td>
+								</tr>
+								<tr>
+									<td>9:30</td>
+									<td>Disrupt!</td>
+									<td>CH - 01</td>
+								</tr>
+								<tr>
+									<td>11:00</td>
+									<td>Keynote - 02</td>
+									<td>Auditorium</td>
+								</tr>
+								<tr>
+									<td>15:00</td>
+									<td>Workshop - 01</td>
+									<td>LH - 03</td>
+								</tr>
+								<tr>
+									<td>15:00</td>
+									<td>Disrupt!</td>
+									<td>CH - 01</td>
+								</tr>
+								<tr>
+									<td>18:00</td>
+									<td>Keynote - 03</td>
+									<td>Auditorium</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="6u$ 12u$(small)">
+						<header class="align-center">
+							<h2>Day - 2</h2>
+						</header>
+						<table style="color: black;">
+							<thead>
+								<tr>
+									<th>Time</th>
+									<th>Event</th>
+									<th>Venue</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>9:30</td>
+									<td>Disrupt!</td>
+									<td>CH - 01</td>
+								</tr>
+								<tr>
+									<td>11:00</td>
+									<td>Strategy Storm</td>
+									<td>CH - 03</td>
+								</tr>
+								<tr>
+									<td>12:00</td>
+									<td>Keynote - 04</td>
+									<td>Auditorium</td>
+								</tr>
+								<tr>
+									<td>15:00</td>
+									<td>Keynote - 05</td>
+									<td>Auditorium</td>
+								</tr>
+								<tr>
+									<td>16:00</td>
+									<td>Workshop - 02</td>
+									<td>Mini Audi</td>
+								</tr>
+								<tr>
+									<td>17:00</td>
+									<td>Prize Distribution</td>
+									<td>Auditorium</td>
+								</tr>
+								<tr>
+									<td>18:00</td>
+									<td>Closing Ceremony</td>
+									<td>Auditorium</td>
+								</tr>
+							</tbody>
+						</table><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--  Register -->
+	<section class="wrapper style3" id="two">
+		<div class="inner">
+			<header class="align-center">
+				<p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
+				<h2>UDGAM 2018</h2>
+				<footer class="align-center">
+					<a class="button alt" href="register.html">Register</a>
+				</footer>
+			</header>
+		</div>
+	</section><!-- Location -->
+	<section class="wrapper style2" id="two">
+		<div class="inner">
+			<div class="box">
+				<div class="content">
+					<header class="align-center">
+						<h2>Location</h2>
+					</header><iframe allowfullscreen frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDMzphcpXvMal2GIyU8mz2iD7nGZJcIbMg%20&q=place_id:ChIJ1ZPM58FaWjcR4ZDEz-OB9As" style="border:0;width: 100%;height:500px;"></iframe>
+				</div>
+			</div>
+		</div>
+	</section><!-- Last Register -->
+	<section class="wrapper style3" id="two">
+		<div class="inner">
+			<header class="align-center">
+				<p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
+				<h2>UDGAM 2018</h2>
+				<footer class="align-center">
+					<a class="button alt" href="register.html">Register</a>
+				</footer>
+			</header>
+		</div>
+	</section><!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<ul class="icons">
+				<li><a class="icon fa-facebook" href="https://www.facebook.com/ecell.iitg/"><span class="label">Facebook</span></a></li>
+				<li><a class="icon fa-twitter" href="https://twitter.com/edciitg"><span class="label">Twitter</span></a></li>
+				<li><a class="icon fa-linkedin" href="https://www.linkedin.com/company/udgam-the-annual-entrepreneurship-summit-of-iit-guwahati/"><span class="label">LinkedIn</span></a></li>
+				<li><a class="icon fa-envelope-o" href="mailto:edc@iitg.ernet.in"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+		<div class="copyright">
+			&copy; Udgam Creatives. All rights reserved.
+		</div>
+	</footer><!-- Scripts -->
+	<script>
+	                       AOS.init();
+	                       window.sr = ScrollReveal();
+	                       sr.reveal('.revealed');
+	                       const second = 1000,
+	                       minute = second * 60,
+	                       hour = minute * 60,
+	                       day = hour * 24;
 
-		<!-- Scripts -->
-			<script>
-			// Set the date we're counting down to
-			var countDownDate = new Date("Jan 19, 2018 17:30:00").getTime();
+	                       let countDown = new Date('Jan 19, 2018 00:00:00').getTime(),
+	                       x = setInterval(function() {
 
-			// Update the count down every 1 second
-			var x = setInterval(function() {
+	                           let now = new Date().getTime(),
+	                           distance = countDown - now;
 
-			    // Get todays date and time
-			    var now = new Date().getTime();
-			    
-			    // Find the distance between now an the count down date
-			    var distance = countDownDate - now;
-			    
-			    // Time calculations for days, hours, minutes and seconds
-			    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-			    
-			    // Output the result in an element with id="demo"
-			    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-			    + minutes + "m " + seconds + "s ";
-			    
-			    // If the count down is over, write some text 
-			    if (distance < 0) {
-			        clearInterval(x);
-			        document.getElementById("demo").innerHTML = "EXPIRED";
-			    }
-			}, 1000);
-			</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	                           document.getElementById('days').innerHTML = Math.floor(distance / (day)),
+	                           document.getElementById('hours').innerHTML = Math.floor((distance % (day)) / (hour)),
+	                           document.getElementById('minutes').innerHTML = Math.floor((distance % (hour)) / (minute)),
+	                           document.getElementById('seconds').innerHTML = Math.floor((distance % (minute)) / second);
+	                       }, second)
+	           $(document).ready(function() {
+	           //Preloader
+	               $(window).load(function() {
+	                   preloaderFadeOutTime = 500;
+	                   function hidePreloader() {
+	                       var preloader = $('.spinner-wrapper');
+	                       preloader.fadeOut(preloaderFadeOutTime);
+	                   }
+	                   hidePreloader();
+	           });
+	       });
 
-	</body>
+	</script>
+</body>
 </html>
