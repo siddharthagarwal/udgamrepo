@@ -88,8 +88,8 @@ body{-webkit-text-size-adjust:none;}
 .\31 1u\24 + *,
 .\31 0u\24 + *,
 .\39 u\24 + *,
-.\38 u\24 + *,
 .\37 u\24 + *,
+.\38 u\24 + *,
 .\36 u\24 + *,
 .\35 u\24 + *,
 .\34 u\24 + *,
@@ -1135,3 +1135,5 @@ body.is-mobile .banner > article{background-attachment:scroll;}
 .spinner-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#000;z-index:999999;}
 .countdown-li{display:inline-block;font-size:1.5em;list-style-type:none;padding:1em;text-transform:uppercase;}
 .countdown-li span{display:block;font-size:4.5rem;color:#ffffff;}
+p{color: rgba(0,0,0,0.70);}
+li{color: rgba(0,0,0,0.70);}
