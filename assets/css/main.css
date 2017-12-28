@@ -1133,7 +1133,7 @@ body.is-mobile .banner > article{background-attachment:scroll;}
 100%{transform:rotate(-360deg);-webkit-transform:rotate(-360deg);}
 }
 .spinner-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#000;z-index:999999;}
-.countdown-li{display:inline-block;font-size:1.5em;list-style-type:none;padding:1em;text-transform:uppercase;}
+.countdown-li{display:inline-block;font-size:1.5em;color:#ffffff;list-style-type:none;padding:1em;text-transform:uppercase;}
 .countdown-li span{display:block;font-size:4.5rem;color:#ffffff;}
 p{color: rgba(0,0,0,0.70);}
 li{color: rgba(0,0,0,0.70);}
