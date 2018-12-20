@@ -1,97 +1,173 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Register | Udgam 2019</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="images/favicon.png" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style type="text/css">
-			.type{
-				display: none;
-			}
-		</style>
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function(){
-		    $('input[type="radio"]').click(function(){
-		        var inputValue = $(this).attr("value");
-		        var targetBox = $("." + inputValue);
-		        $(".type").not(targetBox).hide();
-		        $(targetBox).show();
-		    });
+<head>
+	<title>Register | Udgam 2019</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style type="text/css">
+	.type{
+		display: none;
+	}
+	</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('input[type="radio"]').click(function(){
+			var inputValue = $(this).attr("value");
+			var targetBox = $("." + inputValue);
+			$(".type").not(targetBox).hide();
+			$(targetBox).show();
 		});
-		</script>
-	</head>
-	<body>
+	});
+	</script>
+</head>
+<body>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Udgam</a></div>
-				<a href="#menu">Menu</a>
+	<!-- Header -->
+	<header id="header" class="alt">
+		<div class="logo"><a href="index.html">Udgam</a></div>
+		<a href="#menu">Menu</a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="speakers.html">Speakers</a></li>
+			<li><a href="index.html#one">Events</a></li>
+			<li><a href="index.html#agenda">Schedule</a></li>
+			<li><a href="sponsors.html">Sponsors</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="index.html#three">Contact Us</a></li>
+			<li><a href="https://goo.gl/forms/3b9zNqB5eVMNzzjh2">Campus Ambassador</a></li>
+		</ul>
+	</nav>
+
+
+	<!-- One -->
+	<section id="One" class="wrapper style3">
+		<div class="inner">
+			<header class="align-center">
+				<p>Witness the North East Biggest Entrepreneurship Summit</p>
+				<h2>Udgam Attendee Registration</h2>
 			</header>
+		</div>
+	</section>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="speakers.html">Speakers</a></li>
-					<li><a href="index.html#one">Events</a></li>
-					<li><a href="index.html#agenda">Schedule</a></li>
-					<li><a href="sponsors.html">Sponsors</a></li>
-					<li><a href="team.html">Team</a></li>
-					<li><a href="index.html#three">Contact Us</a></li>
-					<li><a href="https://goo.gl/forms/3b9zNqB5eVMNzzjh2">Campus Ambassador</a></li>
-				</ul>
-			</nav>
-
-
-		<!-- One -->
-			<section id="One" class="wrapper style3">
-				<div class="inner">
+	<!-- Two -->
+	<section id="two" class="wrapper style2">
+		<div class="inner">
+			<div class="box">
+				<div class="content">
 					<header class="align-center">
-						<p>Witness the North East Biggest Entrepreneurship Summit</p>
-						<h2>Udgam Attendee Registration</h2>
+						<h2>Registration</h2><br>
 					</header>
+				<header class="align=center">
+					Register as a Contingent : <a href="https://docs.google.com/forms/d/1oh9bLLCJYjcAPHJSjcLC4xaAmOeaZu4qWtgfP-ON0U0/viewform?fbclid=IwAR0x7yNY_IyytRlz69zGWkOpjenRd7kZgOAzhv6FdGcJMlrZOxuJUuhcB-k&edit_requested=true">
+						<button style="border-radius:5px;background-color:#8B10A4;color:#6674A3;font-weight:350" >Register</button></a>
+					</header>
+				<!--<p><h3><a href="https://docs.google.com/forms/d/1oh9bLLCJYjcAPHJSjcLC4xaAmOeaZu4qWtgfP-ON0U0/viewform?fbclid=IwAR0x7yNY_IyytRlz69zGWkOpjenRd7kZgOAzhv6FdGcJMlrZOxuJUuhcB-k&edit_requested=true"
+					style="color:#169BF3">Register as a Contingent </h3> </p>-->
+				<br><br><br>
+				<header class="align-center">
+					<h2>General Information</h2>
+				<div class="row uniform align-center">
+					<div class="4u 12u$(small)">
+						<input type="radio" id="student" name="category" value="student" checked>
+						<label for="student">Student</label>
+					</div>
+					<div class="4u 12u$(small)">
+						<input type="radio" id="professional" name="category" value="professional">
+						<label for="professional">Professional</label>
+					</div>
+					<div class="4u$ 12u$(small)">
+						<input type="radio" id="startup" name="category" value="startup">
+						<label for="startup">Startup</label>
+					</div>
 				</div>
-			</section>
+				<div class="content align-center">
+					<div class="student type" style="margin: auto;width: 50%;border: 0.75px rgba(0, 0, 0, 0.15) solid;">
+						<h2 style="margin-top: 10px;">Student</h2>
+						<h3 >Normal Registration</h3>
+						<ul class="alt">
+							<li>All Keynotes</li>
+							<li>Social Business Conference</li>
+							<li>All Workshops</li>
+							<li>Watch all Competitions</li>
+							<li>Intern Fair</li>
+							<li><b>Price : &#8377;50 (IITG) | &#8377;150 (Non IITG)</b></li>
+						</ul>
+						<h3>Premium Registration</h3>
+						<ul class="alt">
+							<li>Benfeits of Normal Registration</li>
+							<li>Networking Lunch</li>
+							<li><b>Price : &#8377;50+ &#8377;100(IITG) | &#8377;150+ &#8377;100(Non IITG)</b></li>
+						</ul>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="inner">
-					<div class="box">
-						<div class="content">
-							<header class="align-center">
-								<h2>Registration</h2><br><br>.
+					</div>
+					<div class="professional type" style="margin: auto;width: 50%;border: 0.75px rgba(0, 0, 0, 0.15) solid;">
+						<h2 style="margin-top: 10px;">Professional</h2>
+						<h3 >Normal Registration</h3>
+						<ul class="alt">
+							<li>All Keynotes</li>
+							<li>Social Business Conference</li>
+							<li>All Workshops</li>
+							<li>Watch all Competitions</li>
+							<li>Networking Lunch</li>
+							<li><b>Price : &#8377;250</b></li>
+						</ul>
 
-                <p><h3><a href="https://docs.google.com/forms/d/1oh9bLLCJYjcAPHJSjcLC4xaAmOeaZu4qWtgfP-ON0U0/viewform?fbclid=IwAR0x7yNY_IyytRlz69zGWkOpjenRd7kZgOAzhv6FdGcJMlrZOxuJUuhcB-k&edit_requested=true" style="color:#169BF3">Register as a Contingent </h3> </p>
-							</header>
-						</div>
-          </div>
-        </div>
-			</section>
+					</div>
+					<div class="startup type" style="margin: auto;width: 50%;border: 0.75px rgba(0, 0, 0, 0.15) solid;">
+						<h2 style="margin-top: 10px;">Startup</h2>
+						<h3 >Normal Registration</h3>
+						<ul class="alt">
+							<li>All Keynotes</li>
+							<li>Social Business Conference</li>
+							<li>All Workshops</li>
+							<li>Watch all Competitions</li>
+							<li>At max 5 members</li>
+							<li><b>Price : Free(IITG) | &#8377;500(Non IITG)</b></li>
+						</ul>
+						<h3 >Premium Registration</h3>
+						<ul class="alt">
+							<li>Benefits of Normal Registration</li>
+							<li>Networking Lunch</li>
+							<li>Time Slot to interact with Attendees</li>
+							<li><b>Price : &#8377;500(IITG) | &#8377;500 + &#8377;500(Non IITG)</b></li>
+						</ul>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="https://www.facebook.com/ecell.iitg/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://twitter.com/edciitg" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/company/udgam-the-annual-entrepreneurship-summit-of-iit-guwahati/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:edc@iitg.ernet.in" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
+					</div>
 				</div>
-				<div class="copyright">
-					&copy; Udgam Creatives. All rights reserved.
-				</div>
-			</footer>
+			</header>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<!-- Footer -->
+<footer id="footer">
+	<div class="container">
+		<ul class="icons">
+			<li><a href="https://www.facebook.com/ecell.iitg/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+			<li><a href="https://twitter.com/edciitg" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="https://www.linkedin.com/company/udgam-the-annual-entrepreneurship-summit-of-iit-guwahati/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="mailto:edc@iitg.ernet.in" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		</ul>
+	</div>
+	<div class="copyright">
+		&copy; Udgam Creatives. All rights reserved.
+	</div>
+</footer>
 
-	</body>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
