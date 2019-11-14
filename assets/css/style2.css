@@ -1,0 +1,112 @@
+#overlay {
+    width: 100%;
+    /* Full width (cover the whole page) */
+    min-height: inherit;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12, 0, 50, 0.8);
+    /* Black background with opacity */
+    z-index: 1;
+}
+
+body {
+    background: url('../../images/bgbody.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.team-2 img {
+    border-radius: 10rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 200px;
+    height: 200px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #0c0032;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #1245a8;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0c0032;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Montserrat", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h6:hover.hov {
+    color: blue;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* @media(max-width: 540px) and (min-width: 400px) {
+    .ytvideo {
+        width: 350px;
+        height: 263px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(max-width: 400px) and (min-width: 250px) {
+    .ytvideo {
+        width: 250px;
+        height: 188px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media(min-width: 540px) {
+    .ytvideo {
+        min-width: 500px;
+        min-height: 300px;
+    }
+} */
