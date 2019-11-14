@@ -12,6 +12,11 @@
     z-index: 1;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 body {
     background: url('../../images/bgbody.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
