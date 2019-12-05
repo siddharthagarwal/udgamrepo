@@ -95,3 +95,14 @@ h6:hover.hov {
         max-width: 1740px;
     }
 }
+
+@media (min-width: 3500px) {
+    .container {
+        max-width: 3400px;
+    }
+}
+@media (min-width: 7000px) {
+    .container {
+        max-width: 6800px;
+    }
+}
