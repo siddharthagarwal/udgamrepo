@@ -13,8 +13,8 @@
 }
 
 .responsive {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 body {
@@ -90,28 +90,8 @@ h6:hover.hov {
     height: 100%;
 }
 
-
-/* @media(max-width: 540px) and (min-width: 400px) {
-    .ytvideo {
-        width: 350px;
-        height: 263px;
-        padding: 0;
-        margin: 0;
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1740px;
     }
 }
-
-@media(max-width: 400px) and (min-width: 250px) {
-    .ytvideo {
-        width: 250px;
-        height: 188px;
-        padding: 0;
-        margin: 0;
-    }
-}
-
-@media(min-width: 540px) {
-    .ytvideo {
-        min-width: 500px;
-        min-height: 300px;
-    }
-} */
