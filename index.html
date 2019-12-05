@@ -394,18 +394,22 @@
                     <h2 class=" display-3 fw-500 text-center text-white ">Contact Us</h2>
                 </header>
                 <form class=" input-border col-11 col-md-8 mx-auto section-dialog bg-gray p-5 p-md-7 " method=" POST " action=" http://formspree.io/udgam.iitg@gmail.com ">
-                    <div class=" form-group ">
-                        <input class=" form-control " type=" text " name=" name " id=" name " value=" " placeholder=" Name " />
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Name" />
                     </div>
                     <div class=" form-group ">
-                        <input class=" form-control " type=" email " name=" email " id=" email " value=" " placeholder=" Email " />
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Email" />
                     </div>
                     <div class=" form-group ">
                         <textarea class=" form-control " name=" message " id=" message " placeholder=" Enter your message " rows=" 6 "></textarea>
                     </div>
                     <div class=" form-group input-group ">
-                        <input class=" btn btn-success " type=" submit " value=" Send Message " />
-                        <input class=" btn btn-danger ml-3 " type=" reset " value=" Reset " />
+                        <div class="col-12 col-md-6 text-center text-md-left">
+                            <input class=" btn btn-success " type=" submit " value=" Send Message " />
+                        </div>
+                        <div class="col-12 col-md-6 text-center text-md-right">
+                            <input class=" btn btn-danger" type=" reset " value=" Reset " />
+                        </div>
                     </div>
 
                 </form>
