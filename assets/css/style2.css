@@ -104,11 +104,19 @@ h6:hover.hov {
     .container {
         max-width: 1740px;
     }
+    img.logo-dark {
+        height: 90px;
+        width: 90px;
+    }
 }
 
 @media (min-width: 2800px) {
     .container {
         max-width: 2660px;
+    }
+    img.logo-dark {
+        height: 125px;
+        width: 125px;
     }
 }
 
@@ -116,10 +124,28 @@ h6:hover.hov {
     .container {
         max-width: 3400px;
     }
+    img.logo-dark {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (min-width: 6000px) {
+    .container {
+        max-width: 5800px;
+    }
+    img.logo-dark {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 @media (min-width: 7000px) {
     .container {
         max-width: 6800px;
+    }
+    img.logo-dark {
+        height: 300px;
+        width: 300px;
     }
 }
