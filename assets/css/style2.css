@@ -100,11 +100,25 @@ h6:hover.hov {
     height: 100%;
 }
 
+img.logo-dark {
+    height: 60px;
+    width: 60px;
+}
+
+img.logo-light {
+    height: 60px;
+    width: 60px;
+}
+
 @media (min-width: 1800px) {
     .container {
         max-width: 1740px;
     }
     img.logo-dark {
+        height: 90px;
+        width: 90px;
+    }
+    img.logo-light {
         height: 90px;
         width: 90px;
     }
@@ -118,6 +132,10 @@ h6:hover.hov {
         height: 125px;
         width: 125px;
     }
+    img.logo-light {
+        height: 125px;
+        width: 125px;
+    }
 }
 
 @media (min-width: 3500px) {
@@ -125,6 +143,10 @@ h6:hover.hov {
         max-width: 3400px;
     }
     img.logo-dark {
+        height: 150px;
+        width: 150px;
+    }
+    img.logo-light {
         height: 150px;
         width: 150px;
     }
@@ -138,6 +160,10 @@ h6:hover.hov {
         height: 250px;
         width: 250px;
     }
+    img.logo-light {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 @media (min-width: 7000px) {
@@ -145,6 +171,10 @@ h6:hover.hov {
         max-width: 6800px;
     }
     img.logo-dark {
+        height: 300px;
+        width: 300px;
+    }
+    img.logo-light {
         height: 300px;
         width: 300px;
     }
