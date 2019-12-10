@@ -33,6 +33,16 @@ body {
     height: 200px;
 }
 
+.nav-tabs-outline .nav-link {
+    color: #1245a8;
+}
+
+.nav-tabs-outline .nav-link:hover,
+.nav-tabs-outline .nav-link.active {
+    color: #fff;
+    background-color: #0c0032;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }

@@ -1,9 +1,8 @@
 # Website Design Template Credits
 
 <!--
-	Hielo by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	TheSaas by TheThemeio
+	https://themeforest.net/user/thethemeio/portfolio
 -->
 
 # Photographs Used
@@ -14,14 +13,22 @@
 	Special Thanks to Montage (Photography Club of IITG)
 -->
 
-# Preloader Effect
+# Illustrations used
 
 <!--
-	Sarvesh Raj | www.facebook.com/sarvesh83
+	Created by Katerina Limpitsouni
+	https://undraw.co/
 -->
 
-# Man behind the code 
+# Background Image
 
-<!-- 
-	Sai Bhaskar Devatha | 9954250532 | www.saibhaskardevatha.co.in 
+<!--
+	Designed by starline
+	Modified by Rishi Pathak
+-->
+
+# Man behind the code
+
+<!--
+	Rishi Pathak | 7635941733 | https://github.com/rishipathak6
 -->
