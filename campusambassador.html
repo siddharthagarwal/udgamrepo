@@ -137,7 +137,7 @@
             <div class="row gap-y">
 
                 <div class="col-md-6 mx-auto  section-dialog">
-                    <form class="input-line" id="contact-form">
+                    <form class="input-line" id="contact-form" name="submit-to-google-sheet">
                         <h5 class="text-center mt-3">Fill in your contact details, we will get back to you soon!
                         </h5><br>
 
@@ -228,20 +228,22 @@
     <!-- Scripts -->
     <script src="assets/js/page.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        var $form = $('form#contact-form'),
-            url = 'https://script.google.com/macros/s/AKfycbwa8bcQ3-YGAYOgqNfEbacertcLogW_YmRIDSPP-035lA9fzrA/exec'
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
 
-        $('#submit-btn').on('click', function(e) {
-            e.preventDefault();
-            var jqxhr = $.ajax({
-                url: url,
-                method: "GET",
-                dataType: "json",
-                data: $form.serializeObject()
-            }).success(
-                // do something
-            );
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwa8bcQ3-YGAYOgqNfEbacertcLogW_YmRIDSPP-035lA9fzrA/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
         })
     </script>
 </body>
