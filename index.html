@@ -10,7 +10,6 @@
     <meta name="keywords" content="">
 
     <!-- Styles -->
-    <link href="assets/css/page.css" rel="stylesheet">
     <link href="assets/css/page.min.css" rel="stylesheet">
     <link href="assets/css/style2.css" rel="stylesheet">
 
@@ -29,7 +28,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145301884-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-145301884-2');
@@ -53,8 +55,8 @@
             <div class="navbar-left">
                 <button class="navbar-toggler" type="button">&#9776;</button>
                 <a class="navbar-brand" href="index.html">
-                    <img class="logo-dark" src="images/UDGAM_logo.png" alt="logo" height="60px" width="60px">
-                    <img class="logo-light" src="images/UDGAM_logo.png" alt="logo" height="60px" width="60px">
+                    <img class="logo-dark" src="images/udgam_logo_100w.png" alt="logo" height="60px" width="60px">
+                    <img class="logo-light" src="images/udgam_logo_100w.png" alt="logo" height="60px" width="60px">
                 </a>
             </div>
 
@@ -81,22 +83,14 @@
     <header class="header text-white mh-fullscreen p-0 overflow-hidden" style="background-image: url(images/bg.jpg);" id="home">
         <div class="container-fluid" id="overlay">
             <div class="container text-center">
-                <!-- <div class="row h-100">
-                    <div class="col-lg-8 mx-auto align-self-center pt-10">
-                        
-                        <div class="col-12 d-flex justify-content-center align-items-center my-auto">
-                            <img src="images/UDGAM logo long website.png" alt="img">
-                        </div>
-
-                    </div>
-                    <div class="col-12 align-self-end text-center pb-7">
-                        <a class="scroll-down-5 scroll-down-white" href="#Aboutus"><span></span></a>
-                    </div>
-                </div> -->
                 <div class="row mh-fullscreen">
                     <div class="col-lg-8 mx-auto align-self-center pt-10">
                         <div class="col-12 d-inline-block">
-                            <img src="images/UDGAM logo long website.png" alt="img">
+                            <!-- <img src="images/UDGAM logo long website.png" alt="img"> -->
+                            <img srcset="images/udgam_logo_long_website_480w.png 480w,
+                                         images/udgam_logo_long_website_800w.png 800w
+                                         images/udgam_logo_long_website_1024w.png 1024w" sizes="(max-width: 600px) 480px,
+                                        (max-width: 1000px) 800px, 1024px" src="images/udgam_logo_long_website_480w.png" alt="img">
                         </div>
                     </div>
                     <div class="col-12 align-self-end text-center pb-10">
@@ -156,7 +150,7 @@
                 <div class=" row gap-y ">
                     <div class=" col-12 col-lg-4 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="150" data-aos-delay="00">
                         <div class=" card hover-shadow-4 shadow-2 ">
-                            <img class=" card-img-top " src=" images/pic07.jpg " alt=" Card image cap ">
+                            <img class=" card-img-top " src="images/pic07_480w.jpg" alt=" Card image cap ">
 
                             <div class=" card-body ">
                                 <h5 class=" card-title lead-4 fw-500 text-center text-md-left ">Lecture Series</h5>
@@ -189,7 +183,7 @@
                     </div>
                     <div class=" col-12 col-lg-4 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="150" data-aos-delay="200">
                         <div class=" card hover-shadow-4 shadow-2 ">
-                            <img class=" card-img-top " src=" images/pic11.jpg " alt=" Card image cap ">
+                            <img class=" card-img-top " src="images/pic11_480w.jpg" alt=" Card image cap ">
 
                             <div class=" card-body ">
                                 <h5 class=" card-title lead-4 fw-500 text-center text-md-left ">Intern Fair</h5>
@@ -204,7 +198,7 @@
                     </div>
                     <div class=" col-12 col-lg-4 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="150" data-aos-delay="00">
                         <div class=" card hover-shadow-4 shadow-2 ">
-                            <img class=" card-img-top " src=" images/pic01.jpg " alt=" Card image cap ">
+                            <img class=" card-img-top " src="images/pic01_480w.jpg" alt=" Card image cap ">
 
                             <div class=" card-body ">
                                 <h5 class=" card-title lead-4 fw-500 text-center text-md-left ">Strategy Storm</h5>
@@ -220,7 +214,7 @@
                     </div>
                     <div class=" col-12 col-lg-4 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="150" data-aos-delay="100">
                         <div class=" card hover-shadow-4 shadow-2 ">
-                            <img class=" card-img-top " src=" images/pic02.jpg " alt=" Card image cap ">
+                            <img class=" card-img-top " src="images/pic02_480w.jpg" alt=" Card image cap ">
 
                             <div class=" card-body ">
                                 <h5 class=" card-title lead-4 fw-500 text-center text-md-left ">Disrupt!</h5>
@@ -236,7 +230,7 @@
                     </div>
                     <div class=" col-12 col-lg-4 d-flex align-items-stretch " data-aos="fade-up" data-aos-duration="150" data-aos-delay="200">
                         <div class=" card hover-shadow-4 shadow-2 ">
-                            <img class=" card-img-top " src=" images/pmx.jpg " alt=" Card image cap ">
+                            <img class=" card-img-top " src="images/pmx_480w.jpg" alt=" Card image cap ">
 
                             <div class=" card-body ">
                                 <h5 class=" card-title lead-4 fw-500 text-center text-md-left ">PMx</h5>
@@ -266,18 +260,6 @@
             </div>
         </section>
 
-
-
-        <!-- <section class=" wrapper style3 ">
-            <div class=" inner ">
-                <header class=" align-center ">
-                    <p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
-                    <h2>UDGAM 2020</h2>
-                    <footer class=" align-center ">
-                    </footer>
-                </header>
-            </div>
-        </section> -->
         <!-- Location -->
         <section class=" section ">
             <div class=" container ">
@@ -291,29 +273,6 @@
             </div>
         </section>
 
-        <!-- <section class=" wrapper style2 ">
-            <div class=" inner ">
-                <div class=" box ">
-                    <div class=" content ">
-                        <header class=" align-center ">
-                            <h2>Location</h2>
-                        </header><iframe allowfullscreen frameborder=" 0 " src=" https://www.google.com/maps/embed/v1/place?key=AIzaSyDMzphcpXvMal2GIyU8mz2iD7nGZJcIbMg%20&q=place_id:ChIJ1ZPM58FaWjcR4ZDEz-OB9As " style=" border:0;width: 100%;height:500px; "></iframe>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Last Register -->
-        <!-- <section class=" wrapper style3 " id=" two ">
-        <div class=" inner ">
-            <header class=" align-center ">
-                <p>Witness the Biggest Entrepreneurship Summit of North East India.</p>
-                <h2>UDGAM 2020</h2>
-                <footer class=" align-center ">
-                    <a class=" button big " href=" https://goo.gl/forms/XiQYTxgWp6Ho2Mfp1 ">Registration Passes</a>
-                </footer>
-            </header>
-        </div>
-    </section> -->
         <!-- Contact Form -->
         <section id="contactus" class="section bg-secondary" style=" background-image: url(images/contact_us.svg); ">
             <div class="container">

@@ -12,11 +12,6 @@
     z-index: 1;
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
 body {
     background: url('../../images/bgbody2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -78,10 +73,6 @@ h5,
 h6,
 p {
     font-family: "Montserrat", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-
-h6:hover.hov {
-    color: blue;
 }
 
 .video-container {
